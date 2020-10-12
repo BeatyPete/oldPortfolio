@@ -17,33 +17,41 @@ body {
 
 /* nav */
 header {
+    padding: 20px 35px 20px 0;
     background-color: var(--navgray);
     display: flex;
-    height: 79px;
     justify-content: space-between;
     flex-wrap: wrap;
+    top: 0;
 }
 header h1 {
+    font-weight: bold;
+    font-size: 40px;
     color: var(--navgray);
+    margin: 0;
     background-color: var(--mainblue);
-    margin: 13px 0;
-    padding: 10px 11px 10px 66px;
-    font-size: 33px;
+    padding-left: 60px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding: 5px 5px 5px 60px;
 }
 header nav {
-    display: flex;
-    align-items: center;
+    margin: 7px 0;
 }
 header nav ul {
     display: flex;
-    list-style: none;
     flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin-right: 50px;
 }
 header nav ul li a {
+    margin: 10px 10px;
+    font-weight: lighter;
+    font-size: 1.3vw;
+    text-decoration: none;
     color: var(--mainblue);
-    text-decoration: none; 
-    font-size: 20px;
-    padding-right: 20px;
-    border-bottom: var(--mainblue) 3px solid;
-    width: 50%;
+    border-bottom: 3px solid var(--mainblue);
+    padding: 5px 10px;
 }
