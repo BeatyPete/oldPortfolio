@@ -55,3 +55,24 @@ header nav ul li a {
     border-bottom: 3px solid var(--mainblue);
     padding: 5px 10px;
 }
+
+/* Hero style */
+.hero {
+    background-image: url(../images/hero-bg.jpg);
+    display: flex;
+    padding: 40px;
+    justify-content: space-between;
+}
+.hero img {
+    border-radius: 50%;
+}
+.cool-text {
+    display: flex;
+    align-items: flex-end;
+}
+.cool-text h2 {
+    color: var(--navgray);
+    background-color: var(--mainblue);
+    font-size: 33px;
+    padding: 10px 10px;
+}
